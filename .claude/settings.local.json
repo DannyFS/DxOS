@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(rustup toolchain install:*)",
+      "Bash(rustup component add:*)",
+      "Bash(cargo install:*)",
+      "Bash(cargo:*)",
+      "Bash(timeout 5 cargo run --target x86_64-blog_os.json)",
+      "Bash(cat:*)",
+      "Bash(timeout 8 cargo run --target x86_64-blog_os.json)",
+      "Bash(timeout 10 cargo run --target x86_64-blog_os.json)",
+      "Bash(tasklist:*)",
+      "Bash(findstr:*)",
+      "Bash(icacls:*)",
+      "Bash(bootimage build:*)",
+      "Bash(timeout 15 cargo run:*)",
+      "Bash(git rm:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
